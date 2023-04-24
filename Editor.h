@@ -25,7 +25,6 @@ public:
         auto rx = centreX - radius;
         auto ry = centreY - radius;
         auto rw = radius * 2.0f;
-        
 
         // background circle fill
         g.setColour(juce::Colours::black);
@@ -68,7 +67,6 @@ public:
             jx = jx1;
             jy = jy1;
         }
-
 
         // 7 arcs
         g.setColour(juce::Colours::red);
